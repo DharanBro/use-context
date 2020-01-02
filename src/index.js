@@ -53,7 +53,7 @@ function Comp({ name }) {
 }
 
 function Test() {
-    // const [data] = useContext(CustomContext);
+    const [data] = useContext(CustomContext);
     console.log("Render Test")
     return <div> {"data.message"}</div >;
 
